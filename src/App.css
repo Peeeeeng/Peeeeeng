@@ -4,18 +4,41 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 10vmin;
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: fixed;
+  margin-top: 0;
+  width: 100%;
+  z-index: 999;
+} */
+
+.main-Header {
+  background-color: #282c34;
+  min-height: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: fixed;
+  margin-top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.header-Link {
+  margin: 15px;
 }
 
 .App-link {
@@ -29,4 +52,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.middleText {
+  height:100px;
+  background-color:red;
+  font-size:36px;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bgm-1, .bgm-2, .bgm-3, .bgm-4 {
+  height: 100vh;
+  position: relative;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgm-1 {
+  background-image: url("http://data.1freewallpapers.com/download/bright-light-on-the-field.jpg");
+}
+
+.bgm-2 {
+  background-image: url("https://thewallpaper.co/wp-content/uploads/2016/03/starry-night-wide-high-resolution-wallpaper-for-desktop-background-download-pictures-hd-images-cool-images-widescreen-1920x1080.jpg")
+}
+
+.bgm-3 {
+  background-image: url("http://wallpapercave.com/wp/RpGyOy4.jpg")
+}
+
+.bgm-4 {
+  background-image: url("https://thewallpaper.co/wp-content/uploads/2016/02/blue-sea-hd-sea-wallpapers-summer-sun-sky-fresh-air-amazing-beach-swimming-widescreen-1805x1015.jpg")
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: right;
+  color: #000;
+}
+
+.captionText {
+  background-color: #ffffff;
+  color: rgb(31, 2, 2);
+  opacity: 0.3;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  margin-right: 10vw;
 }
