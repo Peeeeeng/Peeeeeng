@@ -23,7 +23,7 @@
 } */
 
 .main-Header {
-  background-color: #282c34;
+  background-color: #494949;
   min-height: 10px;
   display: flex;
   flex-direction: row;
@@ -37,8 +37,18 @@
   z-index: 999;
 }
 
-.header-Link {
-  margin: 15px;
+.main-Header>div {
+  display: flex;
+}
+
+.main-Header>div>div {
+  padding: 10px;
+  border: 5px solid #494949;
+}
+
+.main-Header>div>div:hover {
+  border: 5px solid #fdaa5b;
+  background-color: #fdaa5b;
 }
 
 .App-link {
@@ -55,8 +65,8 @@
 }
 
 .middleText {
-  height:100px;
-  background-color:red;
+  height:98vh;
+  background-color:#fdaa5b;
   font-size:36px;
 }
 
@@ -65,7 +75,7 @@ body, html {
 }
 
 .bgm-1, .bgm-2, .bgm-3, .bgm-4 {
-  height: 100vh;
+  height: 98vh;
   position: relative;
 
   background-attachment: fixed;

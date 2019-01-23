@@ -8,7 +8,7 @@ class Home extends Component {
             <div>
                 <div className='bgm-1'>
                     <div className='caption'>
-                        <span className='captionText'>Looking good!</span>
+                        <span className='captionText'>Welcome!</span>
                     </div>
                 </div>
                 <div className='middleText'>Here Here</div>

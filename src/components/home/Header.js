@@ -4,9 +4,14 @@ class Header extends Component {
     render () {
         return (
             <div className='main-Header'>
-                <div className='header-Link'>Menu</div>
                 <div className='header-Link'>
-                    <span>Contect Me</span>
+                    <div>About</div>
+                </div>
+                <div className='header-Link'>
+                    {/* <span>Projects</span>
+                    <span>Contect Me</span> */}
+                    <div>Projects</div>
+                    <div>Contect</div>
                 </div>
             </div>
         )
