@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 
+import ProjectContainer from '../projects/ProjectContainer'
+import Profile from '../Profile'
+import Contact from '../Contact'
+
 
 
 class Home extends Component {
@@ -10,13 +14,15 @@ class Home extends Component {
                     <div className='caption'>
                         <span className='captionText'>Welcome!</span>
                     </div>
+                    <div class="arrow down" />
                 </div>
-                <div className='middleText'>Here Here</div>
+                <div className='middleText'><Profile /></div>
                 <div className='bgm-2' />
-                <div className='middleText'>There There</div>
-                <div className='bgm-3' />
-                <div className='middleText'>Where Where</div>
+                <ProjectContainer />
                 <div className='bgm-4' />
+                {/* <div className='bgm-3' /> */}
+                <Contact />
+                
             </div>
         )
     }

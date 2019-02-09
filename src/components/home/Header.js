@@ -10,7 +10,11 @@ class Header extends Component {
                 <div className='header-Link'>
                     {/* <span>Projects</span>
                     <span>Contect Me</span> */}
-                    <div>Projects</div>
+                    <div>
+                        <a href='#projects' className='header_Link_Text'>
+                        Projects
+                        </a>
+                    </div>
                     <div>Contect</div>
                 </div>
             </div>
