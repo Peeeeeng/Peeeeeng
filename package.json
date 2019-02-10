@@ -2,6 +2,7 @@
   "name": "my_web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://peeeeeng.github.io/",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "react": "^16.7.0",
